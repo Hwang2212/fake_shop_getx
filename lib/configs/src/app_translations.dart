@@ -11,6 +11,7 @@ class AppTranslations extends Translations {
           'home': 'Home',
           'logout': 'Logout',
           'cart': 'Cart',
+          'favourites': 'Favourites',
         },
         'cn': {}
       };

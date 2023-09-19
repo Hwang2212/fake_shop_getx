@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:hpos/views/view.dart';
 import 'package:hpos/views/widgets/src/app_scaffold.dart';
 
-class SettingScreen extends StatelessWidget {
-  static const routeName = '/settings';
-  const SettingScreen({super.key});
+class FavouritesScreen extends StatelessWidget {
+  static const routeName = '/favourites';
+  const FavouritesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class SettingScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Text('Settings'),
+            Text('favourites'),
           ],
         ),
       ),
